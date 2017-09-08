@@ -11,3 +11,8 @@ docker run \
     -e TOPIC_URL='http://forum.example.com/viewtopic.php?f=1&t=2&start=50000' \
     selevit/phpbb2telegram
 ```
+
+Other optional environment variables:
+
+- `UPDATE_TIMEOUT` - timeout in seconds between HTTP requests for topic page
+- `DEBUG` - If `DEBUG=1`, messages will not send to telegram, just will be written to stdout.
