@@ -46,7 +46,10 @@ def extract_text(html):
 def notify_telegram(text):
     bot = telegram.Bot(token=BOT_TOKEN)
     if not DEBUG:
-        bot.send_message(chat_id=CHANNEL_ID, text=text)
+        bot.send_message(
+            chat_id=CHANNEL_ID, text=text,
+            parse_mode=telegram.ParseMode.MARKDOWN,
+        )
     logger.warn(text)
 
 
