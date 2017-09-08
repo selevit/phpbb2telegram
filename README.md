@@ -9,6 +9,5 @@ docker run \
     -e CHANNEL_ID='@your_channel' \
     # query paramenter start=50000 means the last page
     -e TOPIC_URL='http://forum.example.com/viewtopic.php?f=1&t=2&start=50000' \
-
     selevit/phpbb2telegram
 ```
