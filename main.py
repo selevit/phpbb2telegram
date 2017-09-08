@@ -1,5 +1,5 @@
 """
-Topic monitor for PHPBB 3 forum
+Topic monitor for PHPBB 3 forum.
 
 Listen new messages from phpbb forum and sends
 They to the telegram channel.
