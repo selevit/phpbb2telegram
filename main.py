@@ -3,7 +3,7 @@ Topic monitor for PHPBB 3 forum
 
 Listen new messages from phpbb forum and sends
 They to the telegram channel.
-Used for getting updates about a free Visa slots in Russian Embossy.
+Used for getting updates about a free Visa slots in Russian Embassy.
 """
 import logging
 import os
