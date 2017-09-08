@@ -12,7 +12,7 @@ docker run \
     selevit/phpbb2telegram
 ```
 
-Other optional environment variables:
+Optional environment variables:
 
-- `UPDATE_TIMEOUT` - timeout in seconds between HTTP requests for topic page
-- `DEBUG` - If `DEBUG=1`, messages will not send to telegram, just will be written to stdout.
+- `UPDATE_TIMEOUT` - timeout in seconds between HTTP requests for topic page (default=5)
+- `DEBUG` - If `DEBUG=1`, messages will not send to telegram, just will be written to stdout (default=0)
