@@ -1,0 +1,5 @@
+env/
+.git/
+.last_message_id
+env.sh
+var/

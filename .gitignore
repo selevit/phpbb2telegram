@@ -1,0 +1,6 @@
+env/
+*.pyc
+__pycache__/
+.last_message_id
+env.sh
+var/
