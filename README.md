@@ -1,4 +1,4 @@
-# PhpBB3 topic monitor via telegram
+# PhpBB 3 topic monitor via telegram
 
 Sends new messages from a phpbb topic to a telegram channel.
 Tested on phpbb3.
