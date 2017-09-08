@@ -1,5 +1,5 @@
 """
-Topic monitor for PHPBB 3 forum.
+Topic monitor for PHPBB 3 forum
 
 Listen new messages from phpbb forum and sends
 They to the telegram channel.
@@ -23,7 +23,7 @@ UPDATE_TIMEOUT = int(os.environ.get('UPDATE_TIMEOUT', '5'))
 ID_REGEX = re.compile('^pc(\d+)$')
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 LAST_MESSAGE_ID_FILE = os.path.join(BASE_DIR, 'var/last_message_id')
-DEBUG = bool(os.environ.get('DEBUG', '0'))
+DEBUG = bool(int(os.environ.get('DEBUG', '0')))
 
 
 logger = logging.getLogger(__file__)
